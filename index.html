@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="land">landscape</p>
+    <p class="port">portrait</p>
+    <style>
+      @media (orientation: landscape) {
+        .land {
+          display: block;
+        }
+        .port {
+          display: none;
+        }
+      }
+      @media (orientation: portrait) {
+        .land {
+          display: none;
+        }
+        .port {
+          display: block;
+        }
+      }
+    </style>
+  </body>
+</html>
